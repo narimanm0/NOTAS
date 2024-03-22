@@ -8,27 +8,28 @@ body {
 }
 
 header {
-    background-color: #2E2E2E;
+    background-color: #ffffff92;
     color: #fff;
     padding: 20px 0;
     /* text-align: center; */
 }
 nav a {
-    color: #fff;    
+    color: #232946;    
     text-decoration: none;
     /* position:  fixed; */
     padding: 0 10px;
     /* margin: 0 0 20px 0; */
     text-align: right;
     font-size: 20px;
+    font-weight: bold;
 }
 nav a:hover {
-    color: #ffffff8a;
+    color: #5261ab;
 
 }
 
 nav img{
-    margin: 0 1050px 0 150px;   
+    margin: 0 1000px 0 120px;   
 }
 
 #hero {
