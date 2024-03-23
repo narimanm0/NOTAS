@@ -1,4 +1,9 @@
 /* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -8,18 +13,22 @@ body {
 }
 
 header {
-    background-color: #ffffff92;
-    color: #fff;
-    padding: 20px 0;
-    /* text-align: center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    background: #ffffff92;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
 }
 nav a {
     color: #232946;    
-    text-decoration: none;
-    /* position:  fixed; */
+    text-decoration:none;
     padding: 0 10px;
-    /* margin: 0 0 20px 0; */
-    /* text-align: right; */
     font-size: 20px;
     font-weight: bold;
 }
@@ -29,9 +38,6 @@ nav a:hover {
 nav .Register:hover {
     background-color: #3c4677;
     color: #fff;
-}
-nav img{
-    margin: 0 65% 0 120px;
 }
 
 nav .Register{
@@ -58,7 +64,7 @@ nav .Register{
 }
 
 #about, #courses {
-    padding: 50px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
