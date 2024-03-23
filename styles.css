@@ -19,17 +19,27 @@ nav a {
     /* position:  fixed; */
     padding: 0 10px;
     /* margin: 0 0 20px 0; */
-    text-align: right;
+    /* text-align: right; */
     font-size: 20px;
     font-weight: bold;
 }
 nav a:hover {
-    color: #5261ab;
-
+    color: #5b6bbb;
+}
+nav .Register:hover {
+    background-color: #3c4677;
+    color: #fff;
+}
+nav img{
+    margin: 0 65% 0 120px;
 }
 
-nav img{
-    margin: 0 1000px 0 120px;   
+nav .Register{
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #5261ab;
+    margin: 7px;
+    padding: 5px;
 }
 
 #hero {
@@ -55,7 +65,7 @@ nav img{
 footer {
     background-color: #333;
     color: #fff;
-    padding: 0; /* if we add smth here, we can set it */
+    padding: 5px; /* if we add smth here, we can set it */
     text-align: center;
     position:  fixed;
     bottom: 0;
@@ -70,6 +80,63 @@ footer {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/**/
+.RegLog {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.RegLog h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.RegLog form {
+    text-align: left;
+}
+
+.RegLog label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.RegLog input[type="text"],
+.RegLog input[type="email"],
+.RegLog input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.RegLog input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.RegLog input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.RegLog p {
+    margin-top: 20px;
+}
+/**/
 
 .course h3 {
     margin-top: 0;
